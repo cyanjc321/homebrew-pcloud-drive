@@ -1,5 +1,5 @@
 cask 'pcloud-drive' do
-  version '3.7.9'
+  version '3.8.0'
   sha256 '0f251933096e44cdcc15334d6d27fec347dad5d66134f1dc93e21a152a2a163c'
 
   url do
@@ -17,7 +17,7 @@ cask 'pcloud-drive' do
 
   depends_on cask: 'osxfuse'
 
-  pkg 'pCloud Drive 3.7.9.pkg'
+  pkg 'pCloud Drive 3.8.0.pkg'
 
   uninstall quit:    'com.pcloud.pcloud.macos',
             pkgutil: 'com.mobileinno.pkg.pCloudDrive'
